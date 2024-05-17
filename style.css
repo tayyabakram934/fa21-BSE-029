@@ -1,0 +1,109 @@
+body{
+    color: black;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 59;
+    
+}
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+#about{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 59;
+}
+#services{
+    /* background-color: rgba(0, 0, 0, 0.922); */
+    /* color: rgba(250, 235, 215, 0.881); */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50;
+}
+#services .firsthead{
+    display: flex;
+    padding: 0 1vw;
+    flex-direction: column;
+}
+.firsthead h3{
+    text-align: center;
+}
+#services .secondhead{
+    display: flex;
+    padding: 0 1vw;
+    flex-direction: column;
+}
+.secondhead h3{
+    text-align: center;
+}
+#services .thirdhead{
+    display: flex;
+    padding: 0 1vw;
+    flex-direction: column;
+}
+.thirdhead h3{
+    text-align: center;
+}
+nav{
+    background-color: blanchedalmond;
+}
+.nav-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logos a{
+color: rgb(1, 5, 9);
+font-weight: 600;
+font-size: 30px;
+text-align: start;
+padding: 5px;
+text-decoration: none;
+
+}
+.container li{
+    margin: 3px;
+    list-style: none;
+
+}
+.container ul{
+    display: flex;
+}
+.menu ul {
+    display: flex;
+   text-decoration: none;
+
+}
+.menu ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+
